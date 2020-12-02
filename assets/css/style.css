@@ -1,0 +1,89 @@
+
+/*------Header----*/
+*{
+    scroll-behavior: smooth;
+}
+
+
+.container-fluid{
+    padding: 0;
+}
+
+.header-text {
+    color: black;
+    text-align: center;
+    padding: 0;
+}
+
+.header-text {
+    margin: 0;
+    color: #ffffff;
+    height: auto;
+    width: auto;
+    padding-top: 20%;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+ #landing-background { 
+    background: url("/assets/images/landing-page.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+    
+}
+
+.container-nav {
+    padding: 0;
+}
+
+
+
+#content-picture2 {
+    background: url("../images/content-picture2.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+}
+
+#content-picture3 {
+    background: url("../images/content-picture3.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+}
+
+#content-picture4 {
+    background: url("../images/content-picture4.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+}
+
+.form-group{
+    background-color: rgba(132, 132, 132, 0.2);
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+#contact{
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #contact{
+    padding-top: 150px;
+    }
+    .form-group{
+    background-color: rgba(132, 132, 132, 0.2);
+    margin-top: 15%;
+    margin-left: 0;
+    }
+}
+
+
+/*-----------------------------------------------Footer*/
