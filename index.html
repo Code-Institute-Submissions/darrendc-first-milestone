@@ -11,56 +11,65 @@
     <title>Darren Daly Carolan</title>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-        <!-- <header>
-    </header> -->
-        <div class="navbar container-nav">
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark col-lg-12 col-md-12 col-sm-12 fixed-top">
-                <a href="#" class="navbar-brand">DDC</a>
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenudisplay" aria-controls="navbarmenudisplay" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <header>
+            <div class="navbar container-nav">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark col-lg-12 col-md-12 col-sm-12 fixed-top">
+                    <a href="#" class="navbar-brand">DDC</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenudisplay" aria-controls="navbarmenudisplay" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarmenudisplay">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
-                            <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
-                            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                            <li class="nav-item"> <a href="#contact" class="nav-link">Contact</a></li>
+                            <li class="nav-item ml-auto"><a href="#home" class="nav-link active">Home</a></li>
+                            <li class="nav-item ml-auto"><a href="#aboutme" class="nav-link">About</a></li>
+                            <li class="nav-item ml-auto"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                            <li class="nav-item ml-auto"> <a href="#contact" class="nav-link">Contact</a></li>
                         </ul>
                     </div>
-            </nav>
-        </div>
+                </nav>
+            </div>
+        </header>
         <div class="jumbotron" id="landing-background">
             <div class="row">
                 <div class="col-12">
                     <div class="header-text" id="home">
-                        <h1>Darren Daly Carolan</h1>
+                        <h1>Darren
+                        <br>
+                        Daly-Carolan</h1>
                         <h2>'Aspiring Full Stack Software Developer'</h2>
                     </div>
                 </div>
             </div>
         </div> 
-        <div class="jumbotron" id="content-picture2">
-            <div class="col-12">
-                <div id="aboutme">
-                    <div class="aboutme-container">
-                        <h3 class="header-aboutme">About me</h3>
-                        <p>Im a 21 year old aspiring software developer with a passion for computers. I've been building
-                        them since i was 12 and always been tinkering with them but could never really afford to commit to
-                        a 3 year collage course due to the massive financial commitment of not having work and having bills
-                        to pay</p>
+        <!-------------------------------- About--->
+        <section>
+            <div class="jumbotron" id="content-picture2">
+                <div class="col-12">
+                    <div id="aboutme">
+                        <div class="aboutme-container about-text">
+                            <h3 class="header-aboutme mx-auto">About</h3>
+                            <p class="col-12 col-md-10 about-textp" >Im a 21 year old aspiring software developer with a passion for computers. I've been building
+                            them since i was 12 and always been tinkering with them but could never really afford to commit to
+                            a 3 year collage course due to the massive financial commitment of not having work and having bills
+                            to pay.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="jumbotron" id="content-picture3">
-            <div id="portfolio">
+        </section>
+        <!-------------------------------- Portfolio--->
+        <section>
+            <div class="jumbotron" id="content-picture3">
+                <div id="portfolio">
+                </div>
             </div>
-        </div>
-        <div class="jumbotron" id="content-picture4">
+        </section>
+        <!-------------------------------- Contact--->
+        <section class="jumbotron">
+        <div id="content-picture4">
             <div id="contact">
                 <form class="row">
-                    <div class="form-group col-lg-12 col-md-12 col-sm-12 mx-auto">
+                    <div class="form-group col-12 mx-auto">
                         <label for="exampleInputEmail1">First Name</label>
                             <input type="text" class="form-control" id="first-name" aria-describedby="emailHelp" placeholder="Please Enter Email...">
                         <label for="exampleInputEmail1">Last Name</label>
@@ -74,16 +83,29 @@
                     </div>
                 </form>
             </div>
+            <footer class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5>Download CV</h5>
+                    <p class="inline-block">Printable version of CV
+                    <a href="#" target="_blank">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span>Download Link</span>
+                    </a>
+                 </p>
+                </div>
+                <div class="col-sm-6">
+                 <h5>Social Media</h5>
+                 <ul class="list-inline social-media">
+                        <li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
         </div>
-        <footer class="bg-dark">
-        <div class="footer-container mx-auto">
-            <ul class="col-md-12 col-lg-12">
-                <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
-            
-            </ul>
-        </div> 
-    </footer>
+        </section>
+        
 </body>
 </html>

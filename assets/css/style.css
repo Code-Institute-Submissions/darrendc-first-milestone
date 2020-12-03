@@ -17,6 +17,15 @@
     padding: 0;
 }
 
+/*------------------------- Navbar------ */
+.container-nav {
+    padding: 0;
+}
+
+.bg-dark {
+    background-color: rgba(100, 100, 100, 0.5) !important;
+}
+
 /*------------------------- Header------ */
 .header-text {
     color: black;
@@ -31,16 +40,43 @@
     width: auto;
     padding-top: 20%;
 }
-/*------------------------- Navbar------ */
-.container-nav {
-    padding: 0;
-}
 
 /*------------------------- Body------ */
+
+
+
+
+/*------------------------- Home------ */
+
+#home{
+    padding-top: 250px;
+}
+
+#home h1{
+    text-decoration: underline;
+}
+
+
+/*------------------------- About------ */
+
 
 .aboutme-container{
     color: #ffffff;
     padding-left: 10%;
+}
+
+#about{
+    text-align: center;
+}
+
+.about-text{
+    padding: 0;
+}
+
+.about-textp{
+    text-align: center;
+    text-justify: left;
+    padding-top: 10px;
 }
 
 #landing-background { 
@@ -88,6 +124,20 @@
 
 /*------------------------- Footer------ */
 
+footer{
+    background: rgba(100, 100, 100, 0.5);
+    color: #fafafa;
+    min-height: 56px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.list-inline a{
+    color: #fafafa;
+}
+
 
 /*------------------------- Colours------ */
 
@@ -107,3 +157,5 @@
     margin: 0;
     }
 }
+/* test */
+
