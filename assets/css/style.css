@@ -17,25 +17,53 @@
     padding: 0;
 }
 
+/*------------------------- Colours------ */
+
+.bg-nav{
+    background: rgba(100, 100, 100, 0.5);
+}
+
+/* ------------------------ Images */
+#landing-background { 
+    background: url("/assets/images/landing-page.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;  
+}
+
+#content-picture2 {
+    background: url("../images/content-picture2.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+    padding-top: 200px;
+}
+
+#content-picture3 {
+    background: url("../images/content-picture3.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+}
+
+#content-picture4 {
+    background: url("../images/content-picture4.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+}
+
 /*------------------------- Navbar------ */
 .container-nav {
     padding: 0;
 }
 
-.bg-dark {
-    background-color: rgba(100, 100, 100, 0.5) !important;
-}
-
 /*------------------------- Header------ */
-.header-text {
-    color: black;
-    text-align: center;
-    padding: 0;
-}
 
 .header-text {
     margin: 0;
     color: #ffffff;
+    text-align: center;
     height: auto;
     width: auto;
     padding-top: 20%;
@@ -71,11 +99,16 @@
 }
 .about-text{
     text-align: center;
-    text-justify: left;
 }
 
-#about{
+#aboutme{
     text-align: center;
+    max-width: 25%;
+}
+
+#furtherinfo{
+    text-align: center;
+    max-width: 25%;
 }
 
 .about-text{
@@ -88,34 +121,33 @@
     padding-top: 10px;
 }
 
-#landing-background { 
-    background: url("/assets/images/landing-page.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    border-radius: 0;  
+/*------------------------- Portfolio------ */
+
+.card-portfolio{
+    padding-top: 50px;
+    color: #fafafa;
+    margin-bottom: 30px;
 }
 
-#content-picture2 {
-    background: url("../images/content-picture2.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    border-radius: 0;
-    padding-top: 200px;
+.heading-skills {
+    color: #fafafa;
+    text-align: center;
+    padding-top: 100px;
 }
 
-#content-picture3 {
-    background: url("../images/content-picture3.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    border-radius: 0;
+.card-love1{
+    margin-left: 8%;
 }
 
-#content-picture4 {
-    background: url("../images/content-picture4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    border-radius: 0;
+.card-love2{
+    margin-left: 4%;
 }
+
+.card-love3{
+    margin-left: 4%;
+    margin-right: 8%
+}
+
 
 
 
@@ -132,17 +164,16 @@
     margin-left: 15%;
 }
 
+.first-name{
+    padding-top: 25px;
+}
+
 /*------------------------- Footer------ */
 
 footer{
     background: rgba(100, 100, 100, 0.5);
     color: #fafafa;
     min-height: 90px;
-    margin-top: 15%;
-}
-
-.footer-position{
-    margin-top: 190px;
 }
 
 .inline-block{
@@ -152,9 +183,6 @@ footer{
 .list-inline a{
     color: #fafafa;
 }
-
-
-/*------------------------- Colours------ */
 
 
 /*------------------------- Media Query's------ */
@@ -171,6 +199,25 @@ footer{
     .row{
     margin: 0;
     }
-}
-/* test */
 
+    .heading-skills {
+    color: #fafafa;
+    text-align: center;
+    padding-top: 20px;
+}
+    .card-love1{
+    max-width: 50%;
+    max-height: 30%;
+    }
+
+
+.card-love2{
+    max-width: 50%;
+    height: 25%;
+    }
+
+    .card-portfolio{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fafafa;
+    } 
+}

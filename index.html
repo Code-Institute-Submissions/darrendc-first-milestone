@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="This is a private personal resume to display my perfessional knowledge and skills">
+    <meta name="keywords" content="HTML, CSS, JavaScript, personal, resume, cv, web developer">
+    <meta name="author" content="Darren Daly Carolan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
@@ -10,10 +13,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Darren Daly Carolan</title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="90">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
         <header>
             <div class="navbar container-nav">
-                <nav class="navbar navbar-expand-md bg-dark navbar-dark col-lg-12 col-md-12 col-sm-12 fixed-top">
+                <nav class="navbar navbar-expand-md bg-nav navbar-dark col-lg-12 col-md-12 col-sm-12 fixed-top">
                     <a href="#" class="navbar-brand">DDC</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenudisplay" aria-controls="navbarmenudisplay" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -46,14 +49,15 @@
             <div id="aboutme"></div>
             <div class="jumbotron" id="content-picture2">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-10 col-md-6 offset-sm-1">
                         <div class="aboutme-container about-text">
                             <h3 class="header-aboutme mx-auto">About</h3>
-                            <p class="col-12 col-md-10 about-text" >Vestibulum quis est hendrerit, gravida purus nec, condimentum metus. Suspendisse porta nisl orci, sed varius magna pretium quis. Sed sodales velit et tempus ultricies. Suspendisse auctor volutpat tortor. Suspendisse vel est nunc. Phasellus sagittis vel ante ac dignissim. Nulla mollis interdum vehicula. Aliquam erat volutpat. Nam tincidunt purus tellus, vel semper tortor iaculis id. Duis ex purus, interdum nec ipsum quis, vestibulum molestie purus. Suspendisse sollicitudin eu magna ac suscipit.
-                             Suspendisse sit amet eros nec tortor rutrum hendrerit vitae quis mi.</p>
+                            <p class="col-12 col-md-10 about-text" >I am currently a code institute student studying software development in the hopes of 
+                            getting a frontend or backend development job with the enthusiasm and motivation to keep pushing my skills boundries further.
+                            </p>
                         </div>
                     </div>
-                    <div class="d-sm-hidden" id="furtherinfo">
+                    <div class="d-none d-md-block" id="furtherinfo">
                         <div class="aboutme-container about-text">
                             <h3 class="header-aboutme mx-auto">Further Personal Info</h3>
                             <p class="col-12 col-md-10 about-text" >Vestibulum quis est hendrerit, gravida purus nec, condimentum metus. Suspendisse porta nisl orci, sed varius magna pretium quis. Sed sodales velit et tempus ultricies. Suspendisse auctor volutpat tortor. Suspendisse vel est nunc. Phasellus sagittis vel ante ac dignissim. Nulla mollis interdum vehicula. Aliquam erat volutpat. Nam tincidunt purus tellus, vel semper tortor iaculis id. Duis ex purus, interdum nec ipsum quis, vestibulum molestie purus. Suspendisse sollicitudin eu magna ac suscipit.
@@ -66,7 +70,27 @@
         <!-------------------------------- Portfolio--->
         <section>
             <div class="jumbotron" id="content-picture3">
-                <div id="portfolio">
+                <div id="portfolio"></div>
+                    <h2 class="heading-skills underline">Skills</h2> 
+                <div class="row card-portfolio">
+                        <div class="col-3 card-love1 bg-dark">
+                            <div class="card-body">
+                                <h5>HTML</h5>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="col-3 card-love2 bg-dark">
+                            <div class="card-body">
+                                <h5>CSS</h5>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="col-3 d-none d-md-block card-love3 bg-dark" id>
+                            <div class="card-body">
+                                <h5>Responsive design</h5>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
@@ -76,19 +100,18 @@
             <div id="contact">
                 <form class="row">
                     <div class="form-group col-12 mx-auto">
-                        <label for="exampleInputEmail1">First Name</label>
-                            <input type="text" class="form-control" id="first-name" aria-describedby="emailHelp" placeholder="Please Enter Email...">
-                        <label for="exampleInputEmail1">Last Name</label>
-                            <input type="text" class="form-control" id="second-name" aria-describedby="emailHelp" placeholder="Please Enter Email...">
-                        <label for="exampleInputEmail1">Email address</label>
-                            <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Please Enter Email...">
-                        <label for="textaria-contact">Email address</label>
-                            <textarea class="form-control" id="textarea-contact" rows="4" cols="50" placeholder="Project idea...."></textarea>
+                        <input type="text" class="form-control form-1" id="first-name" aria-describedby="emailHelp" placeholder="Please Enter First Email...">
+                        <input type="text" class="form-control" id="second-name" aria-describedby="emailHelp" placeholder="Please Enter Last Name....">
+                        <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Please Enter Email...">
+                        <textarea class="form-control" id="textarea-contact" rows="4" cols="50" placeholder="Project idea...."></textarea>
                         <button type="submit" class="btn btn-primary">Submit</button>
                         <small class="">I will respond as soon as I am available</small>
                     </div>
                 </form>
             </div>
+        </div>
+        </section>
+        <!--------------------------------Footer--->
             <footer class="container-fluid footer-position">
             <div class="row">
                 <div class="col-sm-6">
@@ -109,9 +132,6 @@
                     </ul>
                 </div>
             </div>
-        </footer>
-        </div>
-        </section>
-        
+        </footer>        
 </body>
 </html>
