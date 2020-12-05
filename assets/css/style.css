@@ -125,7 +125,6 @@
 }
 
 .personal-image{
-    size: cover;
     margin-top: 150px;
     padding-right: 120px;
     padding-left: 120px;
@@ -138,7 +137,10 @@
     padding-top: 0;
     color: #fafafa;
     margin-bottom: 30px;
-    text-align:
+}
+
+.card-skills h5{
+    text-align: center;
 }
 
 .heading-skills {
@@ -310,7 +312,7 @@ footer{
     background-size: cover;
     min-height: 100vh;
     border-radius: 0;
-    } */
+    }
 
     #home{
     padding-top: 250px;
@@ -344,8 +346,8 @@ footer{
     .personal-image{
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 0;
+    padding-left: 0;
     }
 
     .card-portfolio{
