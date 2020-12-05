@@ -42,7 +42,7 @@
     background-size: cover;
     min-height: 100vh;
     border-radius: 0;
-    padding-top: 5%;
+    padding-top: 80px;
 }
 
 #content-picture3 {
@@ -96,8 +96,17 @@
 
 .aboutme-container{
     color: #ffffff;
-    margin-left: 1%;
     background-color: rgba(100, 100, 100, 0.5); 
+    text-align: justify;
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.aboutme-container2{
+    background-color: rgba(100, 100, 100, 0.5);
+    margin-left: auto;
+    margin-right: auto;
     }
 
 .aboutme-container h3{
@@ -107,10 +116,19 @@
 .aboutme-container p{
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 25px;
     padding-top: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
 }
 
+.personal-image{
+    size: cover;
+    margin-top: 150px;
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-top: 37%;
+    margin-bottom: 37%;
+    }
 /*------------------------- Portfolio------ */
 
 .card-skills{
@@ -261,7 +279,34 @@ footer{
     }
 
 /*------------------------- Media Query's------ */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) { 
+    #landing-background { 
+    background: url("../images/lowres1.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 0;  
+    }
+
+    #content-picture2 {
+    background: url("../images/lowres2.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 0;
+}
+
+    #content-picture3 {
+    background: url("../images/lowres3.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 0;
+}
+
+    #content-picture4 {
+    background: url("../images/lowres4.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 0;
+    } */
 
     #home{
     padding-top: 250px;
@@ -286,6 +331,17 @@ footer{
     color: #fafafa;
     text-align: center;
     padding-top: 20px;
+    }
+
+    .aboutme-container2{
+    margin-top: 15px;
+    }
+
+    .personal-image{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
     }
 
     .card-portfolio{
