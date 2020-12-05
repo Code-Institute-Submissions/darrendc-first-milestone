@@ -284,7 +284,7 @@ footer{
 @media only screen and (max-width: 576px) {
 
     #landing-background { 
-    background: url("/assets/images/lowres1.jpg") no-repeat center center;
+    background: url("../images/lowres1.jpg") no-repeat center center;
     background-size: cover;
     min-height: 100vh;
     border-radius: 0;  
