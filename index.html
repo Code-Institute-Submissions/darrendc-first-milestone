@@ -130,16 +130,25 @@
         <!-------------------------------- Contact--->
         <section class="jumbotron">
         <div class="container-fluid" id="content-picture4">
-            <div id="contact">
-                <form class="row">
-                    <div class="form-group col-12">
-                        <input type="text" class="form-control form-1" id="first-name" aria-describedby="firstname" placeholder="Please Enter First Email...">
-                        <input type="text" class="form-control" id="second-name" aria-describedby="secondname" placeholder="Please Enter Last Name....">
-                        <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Please Enter Email...">
-                        <textarea class="form-control" id="textarea-contact" rows="4" cols="50" placeholder="Project idea...."></textarea>
-                        <small id="small-align">I will respond as soon as I am available, please be discriptive in your message to allow for clear information</small>
-                        <br>
-                        <button type="submit" class="btn btn-info" id="button-send">Send</button>
+            <div class="row" id="contact">
+                <form class="form-style" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                    <div class="form-group">
+                        <input type="text" class="form-control form-1" id="first-name" name="first-name" aria-describedby="firstname" placeholder="Please Enter First Email..." required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="second-name" name="second-name" aria-describedby="secondname" placeholder="Please Enter Last Name...." required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Please Enter Email..." required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="textarea-contact" name="contact" rows="4" cols="50" placeholder="Project idea...." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <small class="form-text text-center">I will respond as soon as I am available, please be discriptive in your message to allow for clear information</small>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-info">Submit</button>
                     </div>
                 </form>
             </div>
