@@ -211,26 +211,6 @@
     background-color: #75366c;
     }
 
-/* #small-align {
-    text-align: center;
-} */
-
-/* .btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-
-} */
-
-/* .btn-primary:hover{
-    background-color: #75366c;
-} */
-
-/* .button-send {
-    margin-left: 45%;
-    margin-bottom: 15px;
-    margin-top: 15px;
-} */
 /*------------------------- Footer------ */
 
 footer{
@@ -283,43 +263,14 @@ footer{
 /*------------------------- Media Query's------ */
 @media only screen and (max-width: 576px) {
 
-    #landing-background { 
-    background: url("../images/lowres1.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    border-radius: 0;  
-}
-
-#content-picture2 {
-    background: url("../images/lowres2.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    border-radius: 0;
-    padding-top: 5%;
-}
-
-#content-picture3 {
-    background: url("../images/lowres3.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    border-radius: 0;
-}
-
-#content-picture4 {
-    background: url("../images/lowres4.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    border-radius: 0;
-}
-
     #home{
-    padding-top: 25%;
+    padding-top: 250px;
     }
 
     #contact{
     padding-top: 150px;
     }
-    .form-group{
+    .form-style{
     max-width: 80%;
     margin-top: 15%;
     }
