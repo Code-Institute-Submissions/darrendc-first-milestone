@@ -33,6 +33,7 @@
 }
 
 /* ------------------------ Images */
+
 #landing-background {
     background: url("../images/landing-page.jpg") no-repeat center center;
     background-size: cover;
@@ -132,6 +133,7 @@
     padding-top: 0;
     color: #fafafa;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .card-skills h5 {
@@ -145,11 +147,6 @@
 }
 
 /* ------------------------ Second Portfolio--- */
-
-.card-skills {
-    margin-top: 50px;
-    margin-bottom: 0px;
-}
 
 .example-piece {
     margin-top: 50px;
@@ -182,9 +179,24 @@
     margin-left: auto;
 }
 
+.resume-portfolio h5{
+    text-align: center;
+}
+.resume-portfolio p{
+    text-align: justify;
+}
+
 .github-portfolio {
     margin-right: auto;
     margin-left: auto;
+}
+
+.github-portfolio h5{
+    text-align: center;
+}
+
+.github-portfolio p{
+    text-align: justify;
 }
 
 .github-icon {
