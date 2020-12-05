@@ -1,51 +1,78 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Darren Daly Carolan Personal Portfolio
+## Purpose
 
-Welcome darrendc-dev,
+This is my submission for milestone one of code institute Full Stack software development course.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+I have done a personal resume for this submission. To display to employers my skills and expertise in such 
+development languages as HTML and CSS while using wireframes to develop the layout and structure while taking
+UX in to account.
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## Active link
+A live version of my personal [portfolio](https://darrendc-dev.github.io/darrendc-first-milestone/#home)
 
 
 
-<span>Photo by <a href="https://unsplash.com/@robbies?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Robbie Yo</a> on <a href="https://unsplash.com/wallpapers/nature/landscape?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-#scrollspy tutorial
-<!-----------------https://www.youtube.com/watch?v=YedRs7J6qEM------->
+# User Expierence( UX )
+
+This is a demonstration of Darren's abilities and skills to be able to create a fully functional personal resume
+as a portfolio piece while making it easily navagated by first time users and returning users a like.
+
+![Screenshot of landing page for website](assets/images/Readme1.png)
+![Screenshot of landing page for website](assets/images/Readme2.png)
+
+
+## 5 Planes of UX
+
+#### Strategy
+My hope in doing this design was to create a platform on which navigation and content would be a
+key priority for both returning and first time users.
+
+#### Scope
+With the hope of attracting more possible employers to my resume I designed it to allow first time
+users easy access to my skills, previous project and my social links with a downloadable CV. While
+allowing returning users ease of access to contact info.
+
+#### Structure
+With Structure in mind I wanted a progressive flow of information from the start to the contact phase
+starting with the about section and rolling into my skills and previous work finishing with the option
+of contacting me by email or social media.
+
+#### Skeleton
+While using balsamiq wireframe tools I made the ideal layout and color scheme I was hoping to achieve
+while doing a multi-page layout but soon changed to a single page design.
+
+
+#### Surface
+The series of images set as my background were chosen in order of telling a visual story of the hard
+work required for this line of employment. I tried to focus on the contrast between the text color 
+and the images by going from a dark background towards a bright foreground.
+
+## Users Expierences
+
+#### Private Business
+As Business owner looking for a web developer I found the information that Darren layed out very well 
+organised and the website easy to navigate. While still having a fluid layout without compromising on
+colors or content.
+![Screenshot of landing page for website](assets/images/Readme3.png)
+
+#### Recruiting Company
+As a recruitment officer I expect to find information on Darren's skills and contact information while also getting
+downloadable CV. My first expierence of Darren's resume was very quick and caused no confusion in finding
+the information I needed.
+![Screenshot of landing page for website](assets/images/Readme4.png)
+
+# Validator
+When coming to the end of my personal resume I validated my CSS and HTML using the asked validators
+
+# Testing
+
+# Deployment
+
+# Future Ideas
+### Increasing Project Count
+I designed the portfolio section in such a way that i can always expand when I move on to more advanced
+projects allowing for a greater show of my progression in the software development field.
+
+# Websites and Services Used
+
+# Credits
