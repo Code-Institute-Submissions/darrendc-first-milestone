@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
 
-*{
+* {
     scroll-behavior: smooth;
     font-size: 20px;
     color: #fafafa;
-    font-family: 'Exo', sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 400;
 }
 
@@ -14,30 +14,30 @@
     border-radius: 0;
 }
 
-.row{
+.row {
     margin: 0;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 0;
 }
 
 /*------------------------- Colours------ */
 
-.bg-nav{
+.bg-nav {
     background: rgba(100, 100, 100, 0.5);
 }
 
-.bg-card{
-   background-color: rgba(100,100,100, 0.6);
+.bg-card {
+    background-color: rgba(100, 100, 100, 0.6);
 }
 
 /* ------------------------ Images */
-#landing-background { 
+#landing-background {
     background: url("../images/landing-page.jpg") no-repeat center center;
     background-size: cover;
     min-height: 100vh;
-    border-radius: 0;  
+    border-radius: 0;
 }
 
 #content-picture2 {
@@ -80,43 +80,38 @@
 
 /*------------------------- Body------ */
 
-
-
-
 /*------------------------- Home------ */
 
-#home{
+#home {
     padding-top: 25%;
 }
 
-#home h1{
+#home h1 {
     text-decoration: underline;
 }
 
-
 /*------------------------- About------ */
 
-
-.aboutme-container{
+.aboutme-container {
     color: #ffffff;
-    background-color: rgba(100, 100, 100, 0.5); 
+    background-color: rgba(100, 100, 100, 0.5);
     text-align: justify;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 
-.aboutme-container2{
+.aboutme-container2 {
     background-color: rgba(100, 100, 100, 0.5);
     margin-left: auto;
     margin-right: auto;
-    }
+}
 
-.aboutme-container h3{
+.aboutme-container h3 {
     text-align: center;
 }
 
-.aboutme-container p{
+.aboutme-container p {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 25px;
@@ -124,22 +119,22 @@
     margin-bottom: 0;
 }
 
-.personal-image{
+.personal-image {
     margin-top: 150px;
     padding-right: 120px;
     padding-left: 120px;
     margin-top: 37%;
     margin-bottom: 37%;
-    }
+}
 /*------------------------- Portfolio------ */
 
-.card-skills{
+.card-skills {
     padding-top: 0;
     color: #fafafa;
     margin-bottom: 30px;
 }
 
-.card-skills h5{
+.card-skills h5 {
     text-align: center;
 }
 
@@ -159,63 +154,62 @@
 .example-piece {
     margin-top: 50px;
     padding-bottom: 50px;
-    }
+}
 
 .github-account {
     text-align: center;
     margin-top: 150px;
     margin-bottom: 0px;
-    }
+}
 
-    .html-portfolio {
+.html-portfolio {
     margin-right: auto;
     margin-left: auto;
-    }
+}
 
-    .css-portfolio {
+.css-portfolio {
     margin-right: auto;
     margin-left: auto;
-    }
+}
 
-    .responsive-portfolio {
+.responsive-portfolio {
     margin-right: auto;
     margin-left: auto;
-    }
+}
 
-    .resume-portfolio {
+.resume-portfolio {
     margin-right: auto;
     margin-left: auto;
-    }
+}
 
-    .github-portfolio {
+.github-portfolio {
     margin-right: auto;
     margin-left: auto;
-    }
+}
 
-    .github-icon{
+.github-icon {
     font-size: 200%;
     text-align: center;
-    }
+}
 
-    .github-icon:hover {
+.github-icon:hover {
     color: #303030;
-    }
-
+}
 
 /*------------------------- Form------ */
 
-#contact{
+#contact {
     padding-top: 0;
 }
 
-#first-name{
+#first-name {
     margin-top: 15px;
 }
-.first-name{
+.first-name {
     padding-top: 25px;
 }
 
-.form-style{
+.form-style {
     background-color: rgba(132, 132, 132, 0.8);
     margin-top: 20%;
     margin-left: auto;
@@ -223,41 +217,41 @@
     padding: 15px;
 }
 
-.form-style input{
+.form-style input {
     margin-bottom: 15px;
 }
 
-.form-style textarea{
+.form-style textarea {
     margin-bottom: 15px;
 }
 
-.btn-info:hover{
+.btn-info:hover {
     background-color: #75366c;
-    }
+}
 
 /*------------------------- Footer------ */
 
-footer{
+footer {
     background: rgba(100, 100, 100, 0.5);
     color: #fafafa;
     min-height: 90px;
 }
 
-.inline-block{
+.inline-block {
     display: inline-block;
 }
 
-.list-inline a{
+.list-inline a {
     color: #fafafa;
 }
 
-.cv-download{
+.cv-download {
     text-align: center;
     color: #fafafa;
     text-decoration: none;
 }
 
-.cv-download i{
+.cv-download i {
     font-size: 200%;
     color: #808080;
 }
@@ -266,137 +260,137 @@ footer{
     color: #212121;
 }
 
-.social-media{
+.social-media {
     text-align: center;
 }
 
-.social-media h5{
+.social-media h5 {
     margin-right: auto;
     margin-left: auto;
 }
 
-.social-media i{
+.social-media i {
     font-size: 200%;
     margin-left: auto;
 }
 
 .social-media i:hover {
     color: #303030;
-    }
+}
 
 /*------------------------- Media Query's------ */
-@media only screen and (max-width: 576px) { 
-    #landing-background { 
-    background: url("../images/lowres1.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    border-radius: 0;  
+@media only screen and (max-width: 576px) {
+    #landing-background {
+        background: url("../images/lowres1.jpg") no-repeat center center;
+        background-size: cover;
+        min-height: 100vh;
+        border-radius: 0;
     }
 
     #content-picture2 {
-    background: url("../images/lowres2.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    border-radius: 0;
-}
+        background: url("../images/lowres2.jpg") no-repeat center center;
+        background-size: cover;
+        min-height: 100vh;
+        border-radius: 0;
+    }
 
     #content-picture3 {
-    background: url("../images/lowres3.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    border-radius: 0;
-}
+        background: url("../images/lowres3.jpg") no-repeat center center;
+        background-size: cover;
+        min-height: 100vh;
+        border-radius: 0;
+    }
 
     #content-picture4 {
-    background: url("../images/lowres4.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    border-radius: 0;
+        background: url("../images/lowres4.jpg") no-repeat center center;
+        background-size: cover;
+        min-height: 100vh;
+        border-radius: 0;
     }
 
-    #home{
-    padding-top: 250px;
+    #home {
+        padding-top: 250px;
     }
 
-    #contact{
-    padding-top: 150px;
+    #contact {
+        padding-top: 150px;
     }
-    .form-style{
-    max-width: 80%;
-    margin-top: 15%;
+    .form-style {
+        max-width: 80%;
+        margin-top: 15%;
     }
-    
-    #button-send{
-    margin-left: 35%;
+
+    #button-send {
+        margin-left: 35%;
     }
-    .row{
-    margin: 0;
+    .row {
+        margin: 0;
     }
 
     .heading-skills {
-    color: #fafafa;
-    text-align: center;
-    padding-top: 20px;
+        color: #fafafa;
+        text-align: center;
+        padding-top: 20px;
     }
 
-    .aboutme-container2{
-    margin-top: 15px;
+    .aboutme-container2 {
+        margin-top: 15px;
     }
 
-    .personal-image{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-right: 0;
-    padding-left: 0;
+    .personal-image {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-right: 0;
+        padding-left: 0;
     }
 
-    .card-portfolio{
-    padding-bottom: 20px;
-    border-bottom: 1px solid #fafafa;
+    .card-portfolio {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fafafa;
     }
 
     .html-portfolio {
-    margin-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
+        margin-top: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .css-portfolio {
-    margin-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
+        margin-top: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .responsive-portfolio {
-    margin-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
+        margin-top: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .resume-portfolio {
-    margin-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
+        margin-top: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .github-portfolio {
-    margin-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 40px;
+        margin-top: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 40px;
     }
 
     .example-piece {
-    padding-bottom: 50px;
+        padding-bottom: 50px;
     }
 }
