@@ -31,7 +31,7 @@
 
 /* ------------------------ Images */
 #landing-background { 
-    background: url("/assets/images/landing-page.jpg") no-repeat center center;
+    background: url("../images/landing-page.jpg") no-repeat center center;
     background-size: cover;
     min-height: 100vh;
     border-radius: 0;  
@@ -169,7 +169,7 @@
     }
 
     .github-icon{
-    font-size: 400%;
+    font-size: 200%;
     text-align: center;
     }
 
@@ -191,38 +191,46 @@
     padding-top: 25px;
 }
 
-.form-group{
-    max-width: 50%;
+.form-style{
     background-color: rgba(132, 132, 132, 0.8);
     margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
+    padding: 15px;
 }
 
-.form-group input{
-    text-align: center;
+.form-style input{
     margin-bottom: 15px;
 }
 
-#button-send {
-    margin-left: 45%;
-}
-
-.form-group textarea{
-    text-align: center;
+.form-style textarea{
     margin-bottom: 15px;
 }
 
-#small-align {
-    text-align: center;
-    margin-bottom: 25px;
-    padding: 50px;
-}
-
-
-#button-send:hover {
+.btn-info:hover{
     background-color: #75366c;
-}
+    }
+
+/* #small-align {
+    text-align: center;
+} */
+
+/* .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+
+} */
+
+/* .btn-primary:hover{
+    background-color: #75366c;
+} */
+
+/* .button-send {
+    margin-left: 45%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+} */
 /*------------------------- Footer------ */
 
 footer{
@@ -246,7 +254,7 @@ footer{
 }
 
 .cv-download i{
-    font-size: 400%;
+    font-size: 200%;
     color: #808080;
 }
 
@@ -264,7 +272,7 @@ footer{
 }
 
 .social-media i{
-    font-size: 400%;
+    font-size: 200%;
     margin-left: auto;
 }
 
@@ -274,6 +282,36 @@ footer{
 
 /*------------------------- Media Query's------ */
 @media only screen and (max-width: 576px) {
+
+    #landing-background { 
+    background: url("/assets/images/lowres1.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 0;  
+}
+
+#content-picture2 {
+    background: url("../images/lowres2.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 0;
+    padding-top: 5%;
+}
+
+#content-picture3 {
+    background: url("../images/lowres3.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 0;
+}
+
+#content-picture4 {
+    background: url("../images/lowres4.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 0;
+}
+
     #home{
     padding-top: 25%;
     }
@@ -285,7 +323,10 @@ footer{
     max-width: 80%;
     margin-top: 15%;
     }
-
+    
+    #button-send{
+    margin-left: 35%;
+    }
     .row{
     margin: 0;
     }
