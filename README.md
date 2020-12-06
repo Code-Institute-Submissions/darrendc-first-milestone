@@ -50,10 +50,10 @@ and the images by going from a dark background towards a bright foreground.
 ## Users Expierences
 
 #### Private Business
-As Business owner looking for a web developer I found the information that Darren layed out very well 
+As Business owner looking for a web developer I found the information that Darren laid out very well 
 organised and the website easy to navigate. While still having a fluid layout without compromising on
-colors or content.
-![Screenshot of landing page for website](assets/images/Readme3.png)
+colours or content.
+![Screenshot of skills page for website](assets/images/Readme3.png)
 
 #### Recruiting Company
 As a recruitment officer I expect to find information on Darren's skills and contact information while also getting
@@ -62,15 +62,20 @@ the information I needed.
 ![Screenshot of landing page for website](assets/images/Readme4.png)
 
 # Development
-1. I started with making out a wireframe
-2. I moved on to github to create a repository for version control
-3. I used the gitpod ide along with bootstrap to develop the basis of my Portfolio/Project
-4. I implemented boostraps grid system to allow for minor Responsive design working from mobile first design and up
-5. I then moved on to make a custom CSS file to allow for extra options when doing later responsive design changes
+1. I started with making out a wireframe.
+2. I moved on to github to create a repository for version control.
+3. I used the gitpod ide along with bootstrap to develop the basis of my Portfolio/Project.
+4. I implemented boostraps grid system to allow for minor Responsive design working from mobile first design and up.
+5. I then moved on to make a custom CSS file to allow for extra options when doing later responsive design changes.
+
+![Balsamiq Desktop page 1 wireframe](assets/wireframe/wireframedesktop1.png)
+![Balsamiq Desktop page 2 wireframe](assets/wireframe/wireframedesktop2.png)
+![Balsamiq Mobile page 1 wireframe](assets/wireframe/wireframemobile1.png)
+![Balsamiq Mobile page 2 wireframe](assets/wireframe/wireframemobile2.png)
 
 # Validator
 When coming to the end of my personal resume I validated my CSS and HTML using the required validators
-and fixed any issues that presented. I had one warning on my HTML and could not resolve due to the structure of my coding
+and fixed any issues that presented. I had one warning on my HTML and could not resolve due to the structure of my coding.
 ![HTML Validate Results](assets/images/htmlvalidate.png)
 ![CSS Validate Results](assets/images/cssvalidate.png)
 
@@ -83,7 +88,7 @@ not space properly on the iphone 5 but would work perfectly on iphone X and abov
 the padding was inherited to my image element and was causing many issues with display. I fixed the 
 problem by giving the image a margin of 0 with the media command.
 
-## Low mobile performan on lighthouse
+## Low mobile performance on lighthouse
 While testing I found out about the lighthouse feature of google dev tools and when i was talking to my
 mentor he advised using a lower resolution picture for the mobile design version to allow for better performance
 so I done a bit of research and implemented a media command allowing it to load a lower resolution version of the
@@ -111,12 +116,12 @@ All the information I required on getting the  scrollSpy navigation tool to work
 
 The Exo Font family was imported from https://fonts.google.com/
 
-I also used https://stackoverflow.com/ to help when I encountered issues, reading old question and answers would always lead me to things that might be causing the issue i.e syntax issues
+I also used https://stackoverflow.com/ to help when I encountered issues, reading old question and answers would always lead me to things that might be causing the issue i.e. syntax issues
 
 # Credits
-I would like to give Roman my in class tutor a big thanks for helping me
+I would like to give Roman my in-class tutor a big thanks for helping me
 resolve some minor issues never giving me the answer but leading me in the
 right direction.
 
-I Would also like to thank my mentor Guido for the some of the ideas such as
+I would also like to thank my mentor Guido for the some of the ideas such as
 the scrollspy funtion in bootstrap to allow for more seamless navigation
