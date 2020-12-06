@@ -89,14 +89,14 @@ the padding was inherited to my image element and was causing many issues with d
 problem by giving the image a margin of 0 with the media command.
 
 ## Low mobile performance on lighthouse
-While testing I found out about the lighthouse feature of google dev tools and when i was talking to my
+While testing I found out about the lighthouse feature of google dev tools and when I was talking to my
 mentor he advised using a lower resolution picture for the mobile design version to allow for better performance
 so I done a bit of research and implemented a media command allowing it to load a lower resolution version of the
 same picture to speed up perforamance. After doing further testing it did not help because the file size was still to
 large to impact the performance. I will come back and fix when I learn more options to help resolve this issue.
 
 # Deployment
-My Project is deployed using github pages and is updated when I push from gitpod after commiting all the changes.
+My Project is deployed using GitHub pages and is updated when I push from Gitpod after commiting all the changes.
 
 I was also using a web browser preview command in the cli by typing "python3 -m http.server"
 
@@ -124,4 +124,4 @@ resolve some minor issues never giving me the answer but leading me in the
 right direction.
 
 I would also like to thank my mentor Guido for the some of the ideas such as
-the scrollspy funtion in bootstrap to allow for more seamless navigation
+the scrollspy funtion in bootstrap to allow for more seamless navigation.
