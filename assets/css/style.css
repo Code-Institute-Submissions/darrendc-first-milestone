@@ -291,6 +291,7 @@ footer {
 }
 
 /*------------------------- Media Query's------ */
+
 @media only screen and (max-width: 576px) {
     #landing-background {
         background: url("../images/lowres1.jpg") no-repeat center center;
@@ -405,4 +406,66 @@ footer {
     .example-piece {
         padding-bottom: 50px;
     }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .card-portfolio {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fafafa;
+    }
+
+    .html-portfolio {
+        margin-top: 20px;
+    }
+
+    .css-portfolio {
+        margin-top: 20px;
+    }
+
+    .responsive-portfolio {
+        margin-top: 20px;
+    }
+
+    .resume-portfolio {
+        margin-top: 20px;
+    }
+
+    .github-portfolio {
+        margin-top: 20px;
+    }
+    .example-piece {
+        padding-bottom: 50px;
+    }    
+}
+
+@media only screen and (max-width: 992px) {
+    .card-portfolio {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fafafa;
+    }
+
+    .html-portfolio {
+        margin-top: 20px;
+    }
+
+    .css-portfolio {
+        margin-top: 20px;
+    }
+
+    .responsive-portfolio {
+        margin-top: 20px;
+    }
+
+    .resume-portfolio {
+        margin-top: 20px;
+    }
+
+    .github-portfolio {
+        margin-top: 20px;
+    }
+
+    .example-piece {
+        padding-bottom: 50px;
+    }    
 }
